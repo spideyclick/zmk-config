@@ -44,7 +44,7 @@
             bindings = <
                 &trans   &kp N1     &kp N2   &kp N3     &kp N4      &kp N5          &kp N6        &kp N7        &kp N8       &kp N9    &kp N0             &trans
                 &kp CAPS &kp LSHIFT &trans   &kp LCTRL  &kp LALT    &kp LGUI        &mt RGUI LEFT &mt RALT DOWN &mt RCTRL UP &kp RIGHT &mt RSHIFT K_MENU  &kp GRAVE
-                &trans   &kp INS    &kp LBKT &kp RBKT   &kp SLCK    &kp PAUSE_BREAK &kp PSCRN     &kp PG_DOWN   &kp HOME     &kp END   &kp PG_UP          &trans
+                &trans   &kp INS    &kp LBKT &kp RBKT   &kp SLCK    &kp PAUSE_BREAK &kp PSCRN     &kp PG_DN     &kp HOME     &kp END   &kp PG_UP          &trans
                                              &lt 2 BSPC &lt 3 SPACE &lt 4 ENTER     &lt 4 ESC     &lt 3 TAB     &lt 2 DEL
             >;
         };
