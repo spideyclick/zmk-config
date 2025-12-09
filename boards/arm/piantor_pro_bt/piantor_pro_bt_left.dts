@@ -11,6 +11,14 @@
     model = "piantor_pro_bt_left";
     compatible = "piantor_pro_bt_left";
 
+    behaviors {
+        mt: mt {
+            flavor = "balanced";
+            timeout-ms = <150>;
+            tapping-term-ms = <150>;
+        };
+    };
+
     chosen {
         zmk,underglow = &led_strip;
     };
