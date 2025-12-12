@@ -13,9 +13,13 @@
     chosen {
         zmk,physical-layout = &default_layout;
     };
-};
 
-/ {
+    &mt {
+        tapping-term-ms = <150>;
+        quick-tap-ms = <150>;
+        flavor = "balanced";
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
