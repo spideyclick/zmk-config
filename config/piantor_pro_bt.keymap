@@ -16,10 +16,10 @@
 };
 
 / {
-    chosen {
-        zmk,physical-layout = &default_layout;
-    };
+    chosen { zmk,physical-layout = &default_layout; };
+};
 
+/ {
     keymap {
         compatible = "zmk,keymap";
 
