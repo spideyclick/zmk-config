@@ -121,30 +121,30 @@
             // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
                 &kp TAB         &kp LALT        &kp Q           &kp W           &kp E           &kp R            &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P           
                 &kp LCTRL       &kp LSHIFT      &kp A           &kp S           &kp D           &kp F            &kp G           &kp H           &kp J           &kp K           &kp L           &kp SEMI        
-                &kp EQUAL       &kp MINUS       &kp Z           &kp X           &kp C           &kp V            &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &tog 5          
+                &lt 7 EQUAL     &lt 6 MINUS     &kp Z           &kp X           &kp C           &kp V            &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &tog 5          
                                                                 &kp FSLH        &kp SPACE       &kp ENTER        &kp F5          &kp F6          &kp F12                                                         
             >;
         };
 
         extra_layer_4 {
-            display-name = "EXTRA 4";
+            display-name = "GAMING_NUM";
             bindings = <
             // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &trans          &trans          &trans          &trans          &trans          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
-                &trans          &trans          &trans          &trans          &trans          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
-                &trans          &trans          &trans          &trans          &trans          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
-                                                                &trans          &trans          &trans           &trans          &trans          &trans                                                          
+                &trans          &trans          &kp N7          &kp N8          &kp N9          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
+                &trans          &kp N0          &kp N4          &kp N5          &kp N6          &kp N0           &trans          &trans          &trans          &trans          &trans          &trans          
+                &trans          &trans          &kp N1          &kp N2          &kp N3          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
+                                                                &trans          &trans          &kp ESC          &trans          &trans          &trans                                                          
             >;
         };
 
         extra_layer_5 {
-            display-name = "EXTRA 5";
+            display-name = "GAMING_RIGHT";
             bindings = <
             // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-                &trans          &trans          &trans          &trans          &trans          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
-                &trans          &trans          &trans          &trans          &trans          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
-                &trans          &trans          &trans          &trans          &trans          &trans           &trans          &trans          &trans          &trans          &trans          &trans          
-                                                                &trans          &trans          &trans           &trans          &trans          &trans                                                          
+                &kp BSLH        &kp p           &kp o           &kp i           &kp u           &kp y            &trans          &trans          &trans          &trans          &trans          &trans          
+                &kp SQT         &kp SEMI        &kp l           &kp k           &kp j           &kp h            &trans          &trans          &trans          &trans          &trans          &trans          
+                &trans          &trans          &kp DOT         &kp COMMA       &kp m           &kp n            &trans          &trans          &trans          &trans          &trans          &trans          
+                                                                &kp b           &kp g           &kp t            &trans          &trans          &trans                                                          
             >;
         };
 
